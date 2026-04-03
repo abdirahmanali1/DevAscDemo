@@ -14,3 +14,4 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def test_greet():
     assert greet("Alice") == "Hello, Alice!"
+    assert greet("Bob") == "Hello, Bob!"
