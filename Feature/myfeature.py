@@ -35,3 +35,6 @@ if __name__ == "__main__":
     print("Tasks:")
     for i, task in enumerate(manager.list_tasks(), start=1):
         print(f"{i}. {task}")
+
+    
+    print("Welcome to the DevAsc!")S
