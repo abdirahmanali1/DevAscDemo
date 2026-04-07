@@ -1,0 +1,30 @@
+<car>
+    <make>Porsche</make>
+    <model>911</model>
+    <year>2020</year>
+    <color>Red</color>
+    <specification>
+        <engine>3.0L Twin-Turbocharged Flat-6</engine>
+        <horsepower>443 hp</horsepower>
+        <torque>390 lb-ft</torque>
+        <transmission>8-speed PDK automatic</transmission>
+        <drivetrain>Rear-wheel drive</drivetrain>
+    </specification>
+    <performance>
+        <acceleration>0-60 mph in 3.5 seconds</acceleration>
+        <top_speed>191 mph</top_speed>
+        <braking>60-0 mph in 110 feet</braking>
+    </performance>
+    <dimensions>
+        <length>177.9 inches</length>
+        <width>72.9 inches</width>
+        <height>51.1 inches</height>
+        <wheelbase>96.5 inches</wheelbase>
+    </dimensions>
+    <features>
+        <feature>Adaptive Cruise Control</feature>
+        <feature>Lane Departure Warning</feature>
+        <feature>Apple CarPlay</feature>
+        <feature>Premium Sound System</feature>
+    </features>
+</car>
