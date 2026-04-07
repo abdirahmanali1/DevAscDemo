@@ -1,0 +1,29 @@
+<router>
+    <hostname>r1</hostname>
+    <interface>
+        <interface id="0" enabled="true">
+            <name>FastEthernet0/0</name>
+            <ip>192.168.1.254</ip>
+            <mask>255.255.255.0</mask>
+        </interface>
+        <interface id="1" enabled="true">
+            <name>FastEthernet0/1</name>
+            <ip>192.168.1.2</ip>
+            <mask>255.255.255.0</mask>
+        </interface>
+    </interface>
+    <routing>
+        <routes>
+            <route>
+                <destination>192.168.2.0</destination>
+                <gateway>192.168.1.254</gateway>
+                <mask>255.255.255.0</mask>
+            </route>
+                <route>
+                    <destination>192.168.3.0</destination>
+                    <gateway>192.168.1.254</gateway>
+                    <mask>255.255.255.0</mask>
+                </route>
+        </routes>
+    </routing>
+</router>
